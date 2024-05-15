@@ -1,4 +1,4 @@
 streamlit
 scikit-learn
 distance
-bs4
+beautifulsoup4
