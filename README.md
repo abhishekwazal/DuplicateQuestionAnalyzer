@@ -1,8 +1,8 @@
-# Quora Question Pair Similarity
+# DuplicateQuestionAnalyzer
 
 ## Description 
 
-<img align="left" src="https://user-images.githubusercontent.com/20265851/132982880-34ee5dc5-c358-4105-ae02-2eca800acb47.png" height="222px"/>
+<img src="https://user-images.githubusercontent.com/20265851/132982880-34ee5dc5-c358-4105-ae02-2eca800acb47.png" height="222px"/>
 
 Quora is a place to gain and share knowledge—about anything. It’s a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world.
 
@@ -23,8 +23,7 @@ COLUMNS
     - question1/question2 : actual question in string 
     - is_duplicate : is question1 is duplicate of question2? (1:YES/0:NO) 
     
-![image](<img width="656" alt="Screenshot1" src="https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/ff122d9b-3ee3-4008-8249-18e8579212cb">
-)
+<img width="656" alt="Screenshot1" src="https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/ff122d9b-3ee3-4008-8249-18e8579212cb">
 
 ## Basic Feature Addition 
  - ____freq_qid1____ = Frequency of qid1's
@@ -39,24 +38,15 @@ COLUMNS
  - ____freq_q1+freq_q2____ = sum total of frequency of qid1 and qid2 
  - ____freq_q1-freq_q2____ = absolute difference of frequency of qid1 and qid2 
  - 
-![image](https://user-images.githubusercontent.com/20265851/132982873-4d122ae6-1bfc-4743-b725-7c8a7cf87a40.png)
+![Screenshot 2024-05-15 175754](https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/d9170762-4289-4a47-8339-7c3dc07d5dc3)
 
 ## Advanced Feature Addition 
 - __cwc_min__ :  Ratio of common_word_count to min lenghth of word count of Q1 and Q2 
 - __cwc_max__ :  Ratio of common_word_count to max lenghth of word count of Q1 and Q2 
-- __csc_min__ :  Ratio of common_stop_count to min lenghth of stop count of Q1 and Q2 
-- __csc_max__ :  Ratio of common_stop_count to max lenghth of stop count of Q1 and Q2
-- __ctc_min__ :  Ratio of common_token_count to min lenghth of token count of Q1 and Q2
-- __ctc_max__ :  Ratio of common_token_count to max lenghth of token count of Q1 and Q2
 - __last_word_eq__ :  Check if First word of both questions is equal or not
 - __first_word_eq__ :  Check if First word of both questions is equal or not
 - __abs_len_diff__ :  Abs. length difference
 - __mean_len__ :  Average Token Length of both Questions
-- __fuzz_ratio__
-- __fuzz_partial_ratio__ 
-- __token_sort_ratio__ 
-- __token_set_ratio__ : 
 - __longest_substr_ratio__ :  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2
 
-![image](<img width="525" alt="image" src="https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/6772fc3b-1951-4b16-8600-fa19c616526d">
-)
+![Screenshot 2024-05-15 181441](https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/dd542c11-3192-4d36-b80d-bc8c1ce1c293)
