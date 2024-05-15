@@ -16,6 +16,9 @@ Over 100 million people visit Quora every month, so it's no surprise that many p
 
 source : https://www.kaggle.com/c/quora-question-pairs/overview/description
 
+## Demo
+![fc0cc0b9-de68-4044-881b-50700edfd663](https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/55f169aa-e689-420a-9e3b-c379c21736ec)
+
 COLUMNS 
 
     - id : tuple unique id
@@ -37,12 +40,12 @@ COLUMNS
 ![Screenshot 2024-05-15 175754](https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/d9170762-4289-4a47-8339-7c3dc07d5dc3)
 
 ## Advanced Feature Addition 
-- __cwc_min__ :  Ratio of common_word_count to min lenghth of word count of Q1 and Q2 
-- __cwc_max__ :  Ratio of common_word_count to max lenghth of word count of Q1 and Q2 
-- __last_word_eq__ :  Check if First word of both questions is equal or not
+- __cwc_min__ :  Ratio of common_word_count to min length of word count of Q1 and Q2 
+- __cwc_max__ :  Ratio of common_word_count to max length of word count of Q1 and Q2 
+- __last_word_eq__ :  Check if the First word of both questions is equal or not
 - __first_word_eq__ :  Check if First word of both questions is equal or not
 - __abs_len_diff__ :  Abs. length difference
 - __mean_len__ :  Average Token Length of both Questions
-- __longest_substr_ratio__ :  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2
+- __longest_substr_ratio__:  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2
 
 ![Screenshot 2024-05-15 181441](https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/dd542c11-3192-4d36-b80d-bc8c1ce1c293)
