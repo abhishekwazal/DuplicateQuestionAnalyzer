@@ -26,18 +26,14 @@ COLUMNS
 <img width="656" alt="Screenshot1" src="https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/ff122d9b-3ee3-4008-8249-18e8579212cb">
 
 ## Basic Feature Addition 
- - ____freq_qid1____ = Frequency of qid1's
- - ____freq_qid2____ = Frequency of qid2's 
  - ____q1len____ = Length of q1
  - ____q2len____ = Length of q2
- - ____q1_n_words____ = Number of words in Question 1
- - ____q2_n_words____ = Number of words in Question 2
+ - ____q1_num_words____ = Number of words in Question 1
+ - ____q2_num_words____ = Number of words in Question 2
  - ____word_Common____ = (Number of common unique words in Question 1 and Question 2)
  - ____word_Total____ =(Total num of words in Question 1 + Total num of words in Question 2)
  - ____word_share____ = (word_common)/(word_Total)
- - ____freq_q1+freq_q2____ = sum total of frequency of qid1 and qid2 
- - ____freq_q1-freq_q2____ = absolute difference of frequency of qid1 and qid2 
- - 
+   
 ![Screenshot 2024-05-15 175754](https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/d9170762-4289-4a47-8339-7c3dc07d5dc3)
 
 ## Advanced Feature Addition 
