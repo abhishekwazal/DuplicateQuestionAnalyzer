@@ -23,7 +23,7 @@ COLUMNS
     - question1/question2 : actual question in string 
     - is_duplicate : is question1 is duplicate of question2? (1:YES/0:NO) 
     
-![image](<img width="656" alt="image" src="https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/28174a70-a7df-4d8a-8429-2989e8fc4938">
+![image](<img width="656" alt="Screenshot1" src="https://github.com/abhishekwazal/DuplicateQuestionAnalyzer/assets/95206285/ff122d9b-3ee3-4008-8249-18e8579212cb">
 )
 
 ## Basic Feature Addition 
