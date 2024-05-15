@@ -2,3 +2,5 @@ streamlit
 scikit-learn
 distance
 beautifulsoup4
+nltk
+nltk.corpus
