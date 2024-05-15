@@ -1,4 +1,4 @@
 train.csv
 cv.pkl
-_pycache_
+__pycache__
 model.pkl
